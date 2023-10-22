@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+        <form>
+            <div class="container">
+                <h2>Cadastro de Produto - Etapa 2: Detalhes do Produto</h2>
+                <form action="etapa3.html" method="post" class="mt-3">
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Preço:</label>
+                        <input type="text" id="price" name="price" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="stock" class="form-label">Quantidade em estoque:</label>
+                        <input type="text" id="stock" name="stock" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="expiry_date" class="form-label">Data de validade:</label>
+                        <input type="text" id="expiry_date" name="expiry_date" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="color" class="form-label">Cor:</label>
+                        <input type="text" id="color" name="color" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="size" class="form-label">Tamanho:</label>
+                        <select id="size" name="size" class="form-control">
+                            <option value="Pequeno">Pequeno</option>
+                            <option value="Médio">Médio</option>
+                            <option value="Grande">Grande</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="material" class="form-label">Material:</label>
+                        <input type="text" id="material" name="material" class="form-control">
+                    </div>
+                    <div class="mt-4">
+                        <button type="button" onclick="window.location.href='etapa3.html'"
+                            class="btn btn-primary me-2">Próximo</button>
+                        <button type="button" onclick="window.location.href='index.html'"
+                            class="btn btn-secondary me-2">Voltar</button>
+                        <button type="button" onclick="window.location.href='index.html'"
+                            class="btn btn-danger">Cancelar</button>
+                    </div>
+        </form>
+            </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</body>
+
+</html>
